@@ -1,0 +1,24 @@
+html
+{
+	background-image: url('/fájl/./formátum/');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+body
+{
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+h1
+{
+	text-align: center;
+}
+footer p
+{
+	text-align: center;
+}
