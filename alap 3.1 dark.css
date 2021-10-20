@@ -1,0 +1,228 @@
+html
+{
+	background-image: url('/fájl/./formátum/');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+body
+{
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+header
+{
+	background-color: #333;
+	padding: 0.1vw;
+	border: 0;
+	margin: 5% 10% 0;
+}
+header h1
+{
+	text-align: center;
+	font-size: 6vw;
+	color: white;
+}
+h2
+{
+	font-size: 2vw;
+	color: white;
+	margin: 0.5vw 2vw;
+}
+footer p
+{
+	text-align: center;
+	font-size: 1vw;
+	color: white;
+}
+p
+{
+	font-size: 1vw;
+	color: white;
+	margin: 0 2vw;
+}
+td
+{
+	color: white;
+	font-size: 1vw;
+	text-align: center;
+	padding: 0.2vw;
+}
+td.title
+{
+	font-size: 1.5vw;
+	font-weight: bold;
+}
+article li
+{
+	font-size: 1vw;
+	color: white;
+	margin: 0 2vw;
+}
+nav ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+nav li 
+{
+  float: left;
+}
+nav li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5vw;
+}
+nav li a:hover 
+{
+  background-color: #111;
+}
+nav li a.active
+{
+	background-color: #4CAF50;
+}
+article a.visual
+{
+	font-size: 1vw;
+	color: white;
+	margin: 2vw 4vw;
+	background-color: #333;
+	padding: 1vw;
+	display: inline-block;
+}
+article a.visual:hover
+{
+	background-color: #111;
+}
+img
+{
+	max-width:100%;
+	height:auto;
+	margin: 0 2vw;
+}
+iframe
+{
+	max-width:100%;
+	max-height:100%;
+	margin: 1vw 2vw;
+}
+
+footer
+{
+	margin: 0 10% 5%;
+	padding: 0.1vw;
+	background-color: #333;
+	position: sticky;
+	bottom: 0;
+}
+article
+{
+	margin: 0 10%;
+	padding: 0.1vw;
+	background-color: #555;
+}
+nav
+{
+	margin: 0 10%;
+	padding: 0.1vw;
+	background-color: #333;
+	position: sticky;
+	top: 0;
+}
+button.download
+{
+	font-size: 1vw;
+	color: white;
+	background-color: DodgerBlue;
+	padding: 1vw 2vw;
+	border: none;
+	margin-bottom: 1vw;
+	margin-top: 1vw;
+}
+button.download:hover
+{
+	background-color: RoyalBlue;
+}
+.center
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+}
+@media screen and (max-device-width: 950px) 
+{ 
+	nav li 
+	{
+		float: none;
+	}
+	nav li a
+	{
+		font-size: 3vw;
+	}
+	footer p 
+	{
+		font-size: 2vw;
+	}
+	article a.visual
+	{
+		font-size: 2vw;
+		margin: 0;
+	}
+	button.download
+	{
+		font-size: 2vw;
+		margin: 0;
+	}
+	p 
+	{
+		font-size: 2vw;
+		margin: 0;
+	}
+	h2
+	{
+		font-size: 4vw;
+		margin: 1vw 0;
+	}
+	article li
+	{
+		font-size: 2vw;
+		margin: 0;
+	}
+	header
+	{
+		margin: 0;
+	}
+	nav
+	{
+		margin: 0;
+		position: static;
+	}
+	article
+	{
+		margin: 0;
+	}
+	footer
+	{
+		margin: 0;
+	}
+	iframe
+	{
+		margin: 0;
+	}
+	img
+	{
+		margin: 0;
+	}
+}
